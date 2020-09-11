@@ -1,0 +1,181 @@
+Microsoft Windows [Version 10.0.18362.1082]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\sdeep>mongo
+MongoDB shell version v4.4.0
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("4bb8e323-b330-4fac-9161-1f4e23f1e7c5") }
+MongoDB server version: 4.4.0
+---
+The server generated these startup warnings when booting:
+        2020-09-10T14:31:32.349+05:30: ***** SERVER RESTARTED *****
+        2020-09-10T14:31:33.811+05:30: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> show dbs
+admin   0.000GB
+config  0.000GB
+db      0.000GB
+local   0.000GB
+mydb    0.000GB
+test    0.000GB
+> db
+test
+> use db
+switched to db db
+> db
+db
+> db.class.find().pretty()
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf94c"),
+        "name" : "Arun",
+        "age" : 20,
+        "address" : "12th block svs nagar chennai",
+        "favourite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf94d"),
+        "name" : "David",
+        "age" : 10,
+        "address" : "15th cross aneez nagar chennai",
+        "favourite teacher" : "Raj"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf94e"),
+        "name" : "Ashwini",
+        "age" : 15,
+        "address" : "23rd main road spencer nagar chennai",
+        "favourite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf94f"),
+        "name" : "Vijay",
+        "age" : 19,
+        "address" : "27th main road anna nagar chennai",
+        "favourite teacher" : "Saravanan"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf950"),
+        "name" : "Bob",
+        "age" : 10,
+        "address" : "16th main road  vadapalani chennai",
+        "favourite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf951"),
+        "name" : "Kamali",
+        "age" : 21,
+        "address" : "12th main road  porur chennai",
+        "favourite teacher" : "Raj"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf952"),
+        "name" : "Swetha",
+        "age" : 16,
+        "address" : "19th main road  kalaimagal nagar chennai",
+        "favourite teacher" : "Saravanan"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf953"),
+        "name" : "Shiva",
+        "age" : 9,
+        "address" : "20th main road parry corner andhra pradesh",
+        "favourite teacher" : "Raj"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf954"),
+        "name" : "Subha",
+        "age" : 21,
+        "address" : "14th main road urapakkam chennai",
+        "favourite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf955"),
+        "name" : "Farhim",
+        "age" : 21,
+        "address" : "14th main road annamalai nagar cuddlore",
+        "favourite teacher" : "Saravanan"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf956"),
+        "name" : "Fazil",
+        "age" : 20,
+        "address" : "9th main road taramani adayar chennai",
+        "favourite teacher" : "Raj"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf957"),
+        "name" : "Hariharan",
+        "age" : 9,
+        "address" : "8th main road besant nagar chennai",
+        "favourite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf958"),
+        "name" : "Ashok",
+        "age" : 22,
+        "address" : "4th main road amman nagar alapakkam chennai",
+        "favourite teacher" : "Saravanan"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf959"),
+        "name" : "Hemanath",
+        "age" : 11,
+        "address" : "8th main road guindy chennai",
+        "favourite teacher" : "Raj"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf95a"),
+        "name" : "Rekha",
+        "age" : 9,
+        "address" : "5th main road tambaram kanchipuram",
+        "favourite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf95b"),
+        "name" : "Kirthana",
+        "age" : 14,
+        "address" : "7th main road pammal kanchipuram",
+        "favourite teacher" : "Saravanan"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf95c"),
+        "name" : "Lavanaya",
+        "age" : 10,
+        "address" : "3rd main road padi chennai",
+        "favourite teacher" : "Raj"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf95d"),
+        "name" : "Manimaran",
+        "age" : 20,
+        "address" : "20th main road velacherry chennai",
+        "favourite teacher" : "Anitha"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf95e"),
+        "name" : "Rahul",
+        "age" : 20,
+        "address" : "12th main road koyambedu chennai",
+        "favourite teacher" : "Raj"
+}
+{
+        "_id" : ObjectId("5f59fc5cfbcf7c888bfaf95f"),
+        "name" : "Sridevi",
+        "age" : 9,
+        "address" : "10th main road virugambakkam chennai",
+        "favourite teacher" : "Saravanan"
+}
+> db.class.count()
+20
+>
